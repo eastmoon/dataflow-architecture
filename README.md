@@ -1,6 +1,5 @@
 # Process architecture project
 
-此專案是以樣式設計實踐互動架構概念，其設計主要思想來自於 PureMVC。
 此專案是以樣式設計實踐流程架構概念，其設計主要思想來自於 Layer、Pipes & Filters
 
 It is a project using design pattern to implement process architecture concept, which design idea come from Layer, Pipes & Filters.
