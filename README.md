@@ -4,6 +4,10 @@
 
 It is a project using design pattern to implement process architecture concept, which design idea come from Layer, Pipes & Filters.
 
+## 調查與研究
+
++ [異步執行 ( Asynchronous execute )](./doc/asynchronous-execute.md) 
+
 ## 參考
 
 + [Pipes and Filters pattern](https://docs.microsoft.com/zh-tw/azure/architecture/patterns/pipes-and-filters)
