@@ -53,5 +53,5 @@ def generator_async_demo():
 
     asyncio.run(do())
 
-#async_demo()
+async_demo()
 generator_async_demo()
