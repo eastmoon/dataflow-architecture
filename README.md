@@ -3,6 +3,7 @@
 + Research document
   - [Architecture pattern](https://github.com/eastmoon/research-software-theory/blob/master/software-engineering/architecture_pattern.md)
   - [Dataflow architecture](https://github.com/eastmoon/research-software-theory/blob/master/software-engineering/dataflow_architecture.md)
+  - [Asynchronous execute](https://github.com/eastmoon/research-software-theory/blob/master/distribution-and-network/asynchronous-execute.md)
 
 此專案是以樣式設計實踐流程架構概念，其設計主要思想來自於 Layer、Pipes & Filters
 
@@ -35,13 +36,6 @@ It is a project using design pattern to implement process architecture concept, 
         - Command Pattern
     - Chain of Responsibility Pattern
     - Vistor Pattern
-
-#### 技術細節研究
-
-+ [異步執行 ( Asynchronous execute )](./doc/asynchronous-execute.md)
-+ Message Queue
-    - AMQP
-+ TCP & UPD
 
 ## § Library
 
