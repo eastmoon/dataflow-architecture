@@ -19,19 +19,19 @@ It is a project using design pattern to implement process architecture concept, 
 > 需注意，即使能以 Design Pattern 來實踐了 Pipes & Filters、Layers，但這樣的設計未必不符合最後的應用需要，主要是考量分散技術的延伸應用，這些架構基礎都會依據對應框架而改變，但仍須注意其架構的概念與演變，從而找出適當的銜接標準。
 
 
-+ Pipes & Filters application
++ [Pipes & Filters application](doc/design-description.md#pipes--filters-application)
 
 實踐框架的應用程式入口，依循 PureMVC 概念，透過唯一化的應用程式入口，讓系統藉此完成對 Dataflow 各項框架管理與操作。
 
-+ Pipes
++ [Pipes](doc/design-description.md#pipes)
 
 導管 ( Pipe ) 的主要設計是做為資料處理單元的規劃物件。
 
-+ Filters
++ [Filters](doc/design-description.md#filters)
 
 過濾器 ( Filter ) 的主要設計是做為資料處理的實際單元。
 
-+ Store
++ [Store](doc/design-description.md#store)
 
 Store ( Filter ) 的主要設計是做為記錄處理過程中資訊的狀態變化。
 
