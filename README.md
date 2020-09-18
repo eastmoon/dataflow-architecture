@@ -15,27 +15,27 @@ It is a project using design pattern to implement process architecture concept, 
 
 ## § Introduction
 
-架構是一種概念，因此從文獻探討中可以知道 Dataflow 架構應從 Pipes & Filters 為基礎發展，並從而延伸成 [Progress 與 Layers](./doc/progress_vs_layers) 兩架構概念，而 Progress 運用於前端設計，Layers 則運用於後端設計；若以此為概念基礎，並以 Design Pattern 實踐 Pipes & Filters 的軟體設計方式。
+架構是一種概念，因此從文獻探討中可以知道 Dataflow 架構應從 Pipes & Filters 為基礎發展，並從而延伸成 [Progress 與 Layers](./doc/progress_vs_layers.md) 兩架構概念，而 Progress 運用於前端設計，Layers 則運用於後端設計；若以此為概念基礎，並以 Design Pattern 實踐 Pipes & Filters 的軟體設計方式。
 > 需注意，即使能以 Design Pattern 來實踐了 Pipes & Filters、Layers，但這樣的設計未必不符合最後的應用需要，主要是考量分散技術的延伸應用，這些架構基礎都會依據對應框架而改變，但仍須注意其架構的概念與演變，從而找出適當的銜接標準。
 
-+ Pipes
-    - Decorator Pattern
-    - Template method Pattern
-
-+ Filters
-    - Composite Pattern
-    - Strategy Pattern
-
-+ Store
-    - Facade Pattern
 
 + Pipes & Filters application
-    - Singleton Pattern
-        - Facade Pattern
-    - Flyweight Pattern
-        - Command Pattern
-    - Chain of Responsibility Pattern
-    - Vistor Pattern
+
+實踐框架的應用程式入口，依循 PureMVC 概念，透過唯一化的應用程式入口，讓系統藉此完成對 Dataflow 各項框架管理與操作。
+
++ Pipes
+
+導管 ( Pipe ) 的主要設計是做為資料處理單元的規劃物件。
+
++ Filters
+
+過濾器 ( Filter ) 的主要設計是做為資料處理的實際單元。
+
++ Store
+
+Store ( Filter ) 的主要設計是做為記錄處理過程中資訊的狀態變化。
+
+
 
 ## § Library
 
